@@ -5,6 +5,7 @@
 Add plugin to your `plugins.sbt`.
 
 ```scala
+resolvers += Resolver.url("Aoki SBT Plugin Repository", url("https://dl.bintray.com/aoki/sbt-plugins/"))(Resolver.ivyStylePatterns)
 addSbtPlugin("com.ringohub" % "sbt-strict-warning" % "0.1.0")
 ```
 
